@@ -63,8 +63,13 @@ header {
 
 main {
   background-color: #7db96f;
+  text-align: center;
+  color: white;
+}
+
+.article-container {
+  background-color: #7db96f;
   padding: 46px 29px;
-  
 }
 
 footer {
