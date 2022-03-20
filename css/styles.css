@@ -11,6 +11,7 @@ header {
   display: flex; 
   flex-direction: column;
   justify-content:  center;
+  font-family: 'Quattrocento', serif;
 }
 
 .title-container {
@@ -27,6 +28,7 @@ header {
   margin-bottom: 18px;
   color: white;
   text-decoration: none;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .button-contact {
@@ -37,6 +39,7 @@ header {
   color: #7db96f;
   text-decoration: none; 
   max-width: 100px;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .button-container {
@@ -56,6 +59,11 @@ header {
   padding: 96px 50px;
   background-color: white;
   color: black;
+  font-family: 'Quattrocento', serif;
+}
+
+.presentation h2 {
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .fruit-container img {
@@ -66,6 +74,10 @@ main {
   background-color: #7db96f;
   text-align: center;
   color: white;
+}
+
+main h2 {
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .article-container {
@@ -82,14 +94,17 @@ main {
   border-radius: 20px;
   box-shadow: 0 0 10px 7px #0000004a;
   margin-bottom: 40px;
+  font-family: 'Sriracha', cursive;
 }
 
 .article-banane p {
   color: #0000008c;
+  font-family: 'Quattrocento', serif;
 }
 
 .article-banane a {
   color: black;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .article-cafe {
@@ -102,14 +117,17 @@ main {
   box-shadow: 0 0 10px 7px #0000004a;
   margin-top: 40px;
   margin-bottom: 40px;
+  font-family: 'Sriracha', cursive;
 }
 
 .article-cafe p {
   color: #0000008c;
+  font-family: 'Quattrocento', serif;
 }
 
 .article-cafe a {
   color: black;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .article-fraise {
@@ -122,14 +140,17 @@ main {
   box-shadow: 0 0 10px 7px #0000004a;
   margin-top: 40px;
   margin-bottom: 40px;
+  font-family: 'Sriracha', cursive;
 }
 
 .article-fraise p {
   color: #0000008c;
+  font-family: 'Quattrocento', serif;
 }
 
 .article-fraise a {
   color: black;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .article-kiwi {
@@ -142,14 +163,17 @@ main {
   box-shadow: 0 0 10px 7px #0000004a;
   margin-top: 40px;
   margin-bottom: 40px;
+  font-family: 'Sriracha', cursive;
 }
 
 .article-kiwi p {
   color: #0000008c;
+  font-family: 'Quattrocento', serif;
 }
 
 .article-kiwi a {
   color: black;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .container {
@@ -168,4 +192,17 @@ footer {
   text-align: center;
   padding: 42px 50px;
   color: #7db96f;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.button-facebook {
+  box-shadow: 0 0 7px 5px #00000017;
+}
+
+.button-email {
+  box-shadow: 0 0 7px 5px #00000017;
+}
+
+.button-instagram {
+  box-shadow: 0 0 7px 5px #00000017;
 }
