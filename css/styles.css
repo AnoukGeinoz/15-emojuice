@@ -48,6 +48,12 @@ header {
 .fruit-container {
   display: flex; 
   flex-direction: row; 
+  justify-content: space-between;
+}
+
+.presentation {
+  text-align: center;
+  padding: 96px 50px;
 }
 
 .fruit-container img {
