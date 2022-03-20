@@ -55,6 +55,7 @@ header {
   text-align: center;
   padding: 96px 50px;
   background-color: white;
+  color: black;
 }
 
 .fruit-container img {
@@ -70,6 +71,97 @@ main {
 .article-container {
   background-color: #7db96f;
   padding: 46px 29px;
+}
+
+.article-banane {
+  background-color: #fcf7d6;
+  color: black;
+  text-align: left;
+  padding: 39px 35px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 7px #0000004a;
+  margin-bottom: 40px;
+}
+
+.article-banane p {
+  color: #0000008c;
+}
+
+.article-banane a {
+  color: black;
+}
+
+.article-cafe {
+  background-color: #cdc4b0;
+  color: black;
+  text-align: left;
+  padding: 39px 35px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 7px #0000004a;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.article-cafe p {
+  color: #0000008c;
+}
+
+.article-cafe a {
+  color: black;
+}
+
+.article-fraise {
+  background-color: #e2a2b1;
+  color: black;
+  text-align: left;
+  padding: 39px 35px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 7px #0000004a;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.article-fraise p {
+  color: #0000008c;
+}
+
+.article-fraise a {
+  color: black;
+}
+
+.article-kiwi {
+  background-color: #d0f1ae;
+  color: black;
+  text-align: left;
+  padding: 39px 35px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 7px #0000004a;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.article-kiwi p {
+  color: #0000008c;
+}
+
+.article-kiwi a {
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container img {
+  max-width: 70px;
 }
 
 footer {
