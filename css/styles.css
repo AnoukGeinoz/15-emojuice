@@ -54,10 +54,17 @@ header {
 .presentation {
   text-align: center;
   padding: 96px 50px;
+  background-color: white;
 }
 
 .fruit-container img {
   width: 28px; 
+}
+
+main {
+  background-color: #7db96f;
+  padding: 46px 29px;
+  
 }
 
 footer {
