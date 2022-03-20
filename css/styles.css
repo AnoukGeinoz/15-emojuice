@@ -59,3 +59,9 @@ header {
 .fruit-container img {
   width: 28px; 
 }
+
+footer {
+  text-align: center;
+  padding: 42px 50px;
+  color: #7db96f;
+}
