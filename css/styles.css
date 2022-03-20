@@ -70,6 +70,32 @@ header {
   width: 28px; 
 }
 
+.introduction {
+  background-color: #d0f1ae;
+  text-align: center;
+  color: black;
+  padding: 96px 50px;
+}
+
+.introduction h2 {
+  font-family: 'Sriracha', cursive;
+}
+
+.background-img {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.background-img img {
+  width: 50px;
+  max-width: 100%;
+}
+
+.introduction p {
+  color: #0000008c;
+  font-family: 'Quattrocento', serif;
+}
+
 main {
   background-color: #7db96f;
   text-align: center;
