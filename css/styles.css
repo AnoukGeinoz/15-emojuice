@@ -36,4 +36,14 @@ header {
   text-align: center;
   color: #7db96f;
   text-decoration: none; 
+  max-width: 50px;
+}
+
+.fruit-container {
+  display: flex; 
+  flex-direction: row; 
+}
+
+.fruit-container img {
+  width: 28px; 
 }
