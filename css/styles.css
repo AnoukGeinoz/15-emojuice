@@ -21,7 +21,8 @@ header {
   margin-bottom: 33px; 
 }
 
-.button {
+.button,
+.button-contact {
   background-color: #7db96f;
   padding: 14px 22px;  
   border-radius: 12px; 
@@ -34,13 +35,8 @@ header {
 
 .button-contact {
   background-color: white;
-  padding: 14px 22px;  
-  border-radius: 12px;
-  text-align: center;
   color: #7db96f;
-  text-decoration: none; 
   max-width: 100px;
-  font-family: 'Maven Pro', sans-serif;
 }
 
 .button-container {
@@ -115,103 +111,52 @@ main h2 {
   padding: 46px 29px;
 }
 
-.article-banane {
-  background-color: #fcf7d6;
-  color: black;
-  text-align: left;
-  padding: 39px 35px;
-  padding-bottom: 30px;
-  border-radius: 20px;
-  box-shadow: 0 0 10px 7px #0000004a;
-  margin-bottom: 40px;
-  font-family: 'Sriracha', cursive;
-}
-
-.article-banane p {
-  color: #0000008c;
-  font-family: 'Quattrocento', serif;
-  font-size: 15px;
-}
-
-.article-banane a {
-  color: black;
-  font-family: 'Maven Pro', sans-serif;
-  font-size: 13px;
-}
-
-.article-cafe {
-  background-color: #cdc4b0;
-  color: black;
-  text-align: left;
-  padding: 39px 35px;
-  padding-bottom: 30px;
-  border-radius: 20px;
-  box-shadow: 0 0 10px 7px #0000004a;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  font-family: 'Sriracha', cursive;
-}
-
-.article-cafe p {
-  color: #0000008c;
-  font-family: 'Quattrocento', serif;
-  font-size: 15px;
-}
-
-.article-cafe a {
-  color: black;
-  font-family: 'Maven Pro', sans-serif;
-  font-size: 13px;
-}
-
-.article-fraise {
-  background-color: #e2a2b1;
-  color: black;
-  text-align: left;
-  padding: 39px 35px;
-  padding-bottom: 30px;
-  border-radius: 20px;
-  box-shadow: 0 0 10px 7px #0000004a;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  font-family: 'Sriracha', cursive;
-}
-
-.article-fraise p {
-  color: #0000008c;
-  font-family: 'Quattrocento', serif;
-  font-size: 15px;
-}
-
-.article-fraise a {
-  color: black;
-  font-family: 'Maven Pro', sans-serif;
-  font-size: 13px;
-}
-
+.article-banane,
+.article-cafe,
+.article-fraise,
 .article-kiwi {
-  background-color: #d0f1ae;
   color: black;
   text-align: left;
   padding: 39px 35px;
   padding-bottom: 30px;
   border-radius: 20px;
   box-shadow: 0 0 10px 7px #0000004a;
-  margin-top: 40px;
   margin-bottom: 40px;
   font-family: 'Sriracha', cursive;
 }
 
+.article-banane p,
+.article-cafe p,
+.article-fraise p,
 .article-kiwi p {
   color: #0000008c;
   font-family: 'Quattrocento', serif;
   font-size: 15px;
 }
 
-.article-kiwi a {
+.article-banane a,
+.article-cafe a,
+.article-fraise a,
+.article-kiwi {
   color: black;
   font-family: 'Maven Pro', sans-serif;
   font-size: 13px;
+}
+
+.article-banane {
+  background-color: #fcf7d6;
+}
+
+.article-cafe {
+  background-color: #cdc4b0;
+}
+
+.article-fraise {
+  background-color: #e2a2b1;
+}
+
+.article-kiwi {
+  background-color: #d0f1ae;
 }
 
 .container {
@@ -225,6 +170,8 @@ main h2 {
 .container img {
   max-width: 70px;
 }
+
+/* kiwi.html */
 
 .article-recette {
   text-align: left;
@@ -276,6 +223,8 @@ main h2 {
   width: 50px;
 }
 
+/* kiwi.html */
+
 footer {
   text-align: center;
   padding: 42px 50px;
@@ -288,14 +237,8 @@ footer p {
   font-size: 11px;
 }
 
-.button-facebook {
-  box-shadow: 0 0 7px 5px #00000017;
-}
-
-.button-email {
-  box-shadow: 0 0 7px 5px #00000017;
-}
-
+.button-facebook,
+.button-email,
 .button-instagram {
   box-shadow: 0 0 7px 5px #00000017;
 }
