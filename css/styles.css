@@ -12,6 +12,7 @@ header {
   flex-direction: column;
   justify-content:  center;
   font-family: 'Quattrocento', serif;
+  font-size: 17px;
 }
 
 .title-container {
@@ -60,10 +61,12 @@ header {
   background-color: white;
   color: black;
   font-family: 'Quattrocento', serif;
+  font-size: 17px;
 }
 
 .presentation h2 {
   font-family: 'Maven Pro', sans-serif;
+  font-size: 24px;
 }
 
 .fruit-container img {
@@ -104,6 +107,7 @@ main {
 
 main h2 {
   font-family: 'Maven Pro', sans-serif;
+  font-size: 22px;
 }
 
 .article-container {
@@ -126,11 +130,13 @@ main h2 {
 .article-banane p {
   color: #0000008c;
   font-family: 'Quattrocento', serif;
+  font-size: 15px;
 }
 
 .article-banane a {
   color: black;
   font-family: 'Maven Pro', sans-serif;
+  font-size: 13px;
 }
 
 .article-cafe {
@@ -149,11 +155,13 @@ main h2 {
 .article-cafe p {
   color: #0000008c;
   font-family: 'Quattrocento', serif;
+  font-size: 15px;
 }
 
 .article-cafe a {
   color: black;
   font-family: 'Maven Pro', sans-serif;
+  font-size: 13px;
 }
 
 .article-fraise {
@@ -172,11 +180,13 @@ main h2 {
 .article-fraise p {
   color: #0000008c;
   font-family: 'Quattrocento', serif;
+  font-size: 15px;
 }
 
 .article-fraise a {
   color: black;
   font-family: 'Maven Pro', sans-serif;
+  font-size: 13px;
 }
 
 .article-kiwi {
@@ -195,11 +205,13 @@ main h2 {
 .article-kiwi p {
   color: #0000008c;
   font-family: 'Quattrocento', serif;
+  font-size: 15px;
 }
 
 .article-kiwi a {
   color: black;
   font-family: 'Maven Pro', sans-serif;
+  font-size: 13px;
 }
 
 .container {
@@ -241,7 +253,7 @@ main h2 {
   justify-content: center;
 }
 
-.container-products .other-products{
+.container-products .other-products {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -269,6 +281,11 @@ footer {
   padding: 42px 50px;
   color: #7db96f;
   font-family: 'Maven Pro', sans-serif;
+  font-size: 17px;
+}
+
+footer p {
+  font-size: 11px;
 }
 
 .button-facebook {
