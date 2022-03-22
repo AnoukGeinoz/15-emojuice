@@ -6,7 +6,7 @@ body {
 header {
   background-image: url("../img/img_fruits.webp");
   padding: 28px;
-  padding-bottom: 185px;
+  padding-bottom: 0;
   border-top: solid 8px #7db96f;
   display: flex; 
   flex-direction: column;
@@ -38,6 +38,7 @@ header {
   background-color: white;
   color: #7db96f;
   max-width: 150px;
+  margin-bottom: 44px;
 }
 
 .button-container {
