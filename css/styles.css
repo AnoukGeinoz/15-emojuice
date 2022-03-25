@@ -84,12 +84,19 @@ header {
 
 .background-img {
   background-color: white;
-  border-radius: 50%;
+  border-radius: 200px;
+  padding: 45px;
+  margin: 45px;
+}
+
+.case-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .background-img img {
-  width: 50px;
-  max-width: 100%;
+  width: 160px;
 }
 
 .introduction p {
@@ -179,6 +186,11 @@ main h2 {
   text-align: left;
   padding: 96px 50px;
   font-family: 'Quattrocento', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .article-recette h2 {
@@ -186,43 +198,53 @@ main h2 {
 }
 
 .article-recette img {
-  max-width: 100%;
-  height: 100%; 
+  max-width: 246px;
+
 }
 
-.other-products {
+.more-products {
   background-color: #d0f1ae;
-  padding: 96px 50px;
   color: black;
 }
 
-.other-products-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.more-products h1 {
+  font-size: 16px; 
 }
 
-.container-products .other-products {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.other-products-container .article-fraise {
-  margin-right: 20px;
-  padding: 25px 25px;
-}
-
-.other-products-container .article-cafe {
-  padding: 25px 25px;
-}
-
-.other-products a {
+.more-products a {
   text-decoration: none;
 }
 
-.other-products img {
+.more-products img {
   width: 50px;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.products-fraise {
+  background-color: #e2a2b1;
+}
+
+.products-cafe {
+  background-color: #cdc4b0;
+  margin-bottom: 20px;
+}
+
+.products-cafe,
+.products-fraise {
+  border-radius: 20px;
+  font-family: 'Sriracha', cursive;
+  padding: 10px;
+}
+
+.duo-products {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* kiwi.html */
