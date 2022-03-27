@@ -180,8 +180,6 @@ main h2 {
   max-width: 70px;
 }
 
-/* kiwi.html */
-
 .article-recette {
   text-align: left;
   padding: 96px 50px;
@@ -205,14 +203,18 @@ main h2 {
 .more-products {
   background-color: #d0f1ae;
   color: black;
+  padding: 30px; 
 }
 
 .more-products h1 {
   font-size: 16px; 
 }
 
-.more-products a {
+.products-container a {
   text-decoration: none;
+  color: #0000008c;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 25px;
 }
 
 .more-products img {
@@ -223,15 +225,17 @@ main h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 30px;
 }
 
 .products-fraise {
   background-color: #e2a2b1;
+  width: 35%;
 }
 
 .products-cafe {
   background-color: #cdc4b0;
-  margin-bottom: 20px;
+  width: 35%; 
 }
 
 .products-cafe,
@@ -239,6 +243,7 @@ main h2 {
   border-radius: 20px;
   font-family: 'Sriracha', cursive;
   padding: 10px;
+  box-shadow: 0 0 10px 7px #0000004a;
 }
 
 .duo-products {
@@ -246,8 +251,6 @@ main h2 {
   flex-direction: row;
   justify-content: space-between;
 }
-
-/* kiwi.html */
 
 footer {
   text-align: center;
