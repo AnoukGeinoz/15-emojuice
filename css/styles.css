@@ -5,7 +5,7 @@ body {
 
 header {
   background-image: url("../img/img_fruits.webp");
-  padding: 28px;
+  padding: 30px;
   padding-bottom: 0;
   border-top: solid 8px #7db96f;
   display: flex; 
@@ -18,8 +18,7 @@ header {
 
 .title-container {
   background-color: #ffffffe0; 
-  padding: 30px 58px 29px 58px; 
-  margin-bottom: 33px; 
+  padding: 20px 60px; 
 }
 
 .button,
