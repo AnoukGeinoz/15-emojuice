@@ -189,7 +189,6 @@ main h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 .article-recipe h2 {
@@ -198,13 +197,13 @@ main h2 {
 
 .article-recipe img {
   max-width: 246px;
-
 }
 
 .more-products {
   background-color: #d0f1ae;
   color: black;
   padding: 30px; 
+  padding-bottom: 50px;
 }
 
 .more-products h1 {
@@ -245,6 +244,7 @@ main h2 {
   font-family: 'Sriracha', cursive;
   padding: 10px;
   box-shadow: 0 0 10px 7px #0000004a;
+  margin: 30px 0;
 }
 
 .duo-products {
