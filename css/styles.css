@@ -147,7 +147,7 @@ main h2 {
 .article-banana a,
 .article-coffee a,
 .article-strawberry a,
-.article-kiwi {
+.article-kiwi a {
   color: black;
   font-family: 'Maven Pro', sans-serif;
   font-size: 13px;
@@ -263,4 +263,5 @@ footer {
 
 footer p {
   font-size: 11px;
+  margin-bottom: 30px;
 }
