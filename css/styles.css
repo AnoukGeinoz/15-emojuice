@@ -263,9 +263,3 @@ footer {
 footer p {
   font-size: 11px;
 }
-
-.button-facebook,
-.button-email,
-.button-instagram {
-  box-shadow: 0 0 7px 5px #00000017;
-}
