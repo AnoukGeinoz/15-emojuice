@@ -19,6 +19,7 @@ header {
 .title-container {
   background-color: #ffffffe0; 
   padding: 20px 60px; 
+  margin-bottom: 20px;
 }
 
 .button,
@@ -112,11 +113,12 @@ main {
 main h2 {
   font-family: 'Maven Pro', sans-serif;
   font-size: 22px;
+  margin-top: 30px;
 }
 
 .article-container {
   background-color: #7db96f;
-  padding: 46px 29px;
+  padding: 45px 30px;
 }
 
 .article-banane,
