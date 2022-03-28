@@ -87,6 +87,7 @@ header {
   border-radius: 200px;
   padding: 45px;
   margin: 45px;
+  box-shadow: 0 0 10px 7px #0000004a;
 }
 
 .case-container {
